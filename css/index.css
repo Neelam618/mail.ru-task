@@ -2,8 +2,27 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #131823; }
 
-.container header {
+header .container {
   font-size: 2rem; }
 
-.container main .all-cups-img {
-  margin-top: 8em; }
+header .all-cups-img {
+  margin-top: 6em; }
+
+.spaceship-img img {
+  width: -webkit-fill-available; }
+
+main .main {
+  margin: 7em; }
+  main .main .desc {
+    color: white; }
+    main .main .desc h1 {
+      font-size: 3.5rem; }
+    main .main .desc .subtitle {
+      font-size: 1.5rem; }
+    main .main .desc .para {
+      width: 400px;
+      text-align: justify;
+      margin-top: 5em; }
+
+main .img {
+  margin-top: 30em; }

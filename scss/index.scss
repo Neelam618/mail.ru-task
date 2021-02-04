@@ -1,17 +1,47 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #131823;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }
 
-.container {
+header {
 
-    header {
+    .container {
         font-size: 2rem;
     }
-    main {
-        
         .all-cups-img {
-            margin-top: 8em;
+            margin-top: 6em;
         }
+    }
+.spaceship-img {
+
+    img{
+        width: -webkit-fill-available;
+    }
+}
+main {
+    .main {
+        margin: 7em;
+
+        .desc {
+            color: white;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+            .subtitle {
+                font-size: 1.5rem;
+            }
+
+            .para {
+                width: 400px;
+                text-align: justify;
+                margin-top: 5em;
+            }
+        }
+    }
+    .img {
+        margin-top: 30em;
     }
 }
