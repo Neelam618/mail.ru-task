@@ -19,26 +19,28 @@ header .container {
 .spaceship-img img {
   width: -webkit-fill-available; }
 
-main .row {
+.row {
   margin: 0;
   padding: 0;
-  width: 100%;
   background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px)); }
-  main .row .desc {
+  .row .desc {
     color: white;
     padding: 120px 0 100px 150px; }
-    main .row .desc h1 {
+    .row .desc h1 {
       font-size: 3.5rem; }
-      main .row .desc h1 .mail-ru {
+      .row .desc h1 .mail-ru {
         color: #2381de; }
-    main .row .desc .subtitle {
+    .row .desc .subtitle {
       font-size: 1.5rem;
       color: #c2c3c5; }
-    main .row .desc .para {
+    .row .desc .para {
       width: 400px;
       text-align: justify;
       color: #e6e4e4;
       margin-top: 5em; }
-  main .row .image {
-    margin-top: 32em;
-    margin-bottom: 15em; }
+  .row .image {
+    margin-top: 30em; }
+  .row .footer {
+    color: white;
+    padding: 6em 7em 5em 7em;
+    font-size: 22px; }
