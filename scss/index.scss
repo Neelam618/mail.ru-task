@@ -9,20 +9,27 @@ header {
 
     .container {
         font-size: 2rem;
-    }
+
         .all-cups-img {
             margin-top: 6em;
         }
     }
-.spaceship-img {
+        
+}
 
+.spaceship-img {
     img{
         width: -webkit-fill-available;
     }
 }
+
 main {
-    .main {
-        margin: 7em;
+    .row {
+        margin: 0;
+        padding: 0;
+        // margin: 7em;
+        width: 100%;
+        background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #aaa, #131823 calc(50% + 1px));
 
         .desc {
             color: white;
@@ -40,8 +47,8 @@ main {
                 margin-top: 5em;
             }
         }
-    }
-    .img {
-        margin-top: 30em;
+        .image {
+            margin-top: 30em;
+        }
     }
 }
