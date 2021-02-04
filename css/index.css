@@ -18,7 +18,8 @@ main .row {
   width: 100%;
   background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #aaa, #131823 calc(50% + 1px)); }
   main .row .desc {
-    color: white; }
+    color: white;
+    padding: 100px 0 100px 100px; }
     main .row .desc h1 {
       font-size: 3.5rem; }
     main .row .desc .subtitle {
@@ -28,4 +29,5 @@ main .row {
       text-align: justify;
       margin-top: 5em; }
   main .row .image {
-    margin-top: 30em; }
+    margin-top: 32em;
+    margin-bottom: 15em; }
