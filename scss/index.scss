@@ -1,8 +1,17 @@
-header {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #131823;
+}
 
-    .atsign {
-        font-family: 'MuseoModerno', cursive;
+.container {
+
+    header {
+        font-size: 2rem;
+    }
+    main {
+        
+        .all-cups-img {
+            margin-top: 8em;
+        }
     }
 }
