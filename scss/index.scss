@@ -9,6 +9,15 @@ header {
 
     .container {
         font-size: 2rem;
+        color: #c2c3c5;
+
+        .line {
+            display: inline-block;
+            width: 30px;
+            height: 3px;
+            margin: 6px 0;
+            background-color: #c2c3c5;
+        }
 
         .all-cups-img {
             margin-top: 6em;
@@ -29,22 +38,28 @@ main {
         padding: 0;
         // margin: 7em;
         width: 100%;
-        background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #aaa, #131823 calc(50% + 1px));
+        background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px));
 
         .desc {
             color: white;
-            padding: 100px 0 100px 100px;
+            padding: 120px 0 100px 150px;
 
             h1 {
                 font-size: 3.5rem;
+
+                .mail-ru {
+                    color: #2381de;
+                }
             }
             .subtitle {
                 font-size: 1.5rem;
+                color: #c2c3c5;
             }
 
             .para {
                 width: 400px;
                 text-align: justify;
+                color: #e6e4e4;
                 margin-top: 5em;
             }
         }
