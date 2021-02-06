@@ -13,8 +13,10 @@ header .container {
     height: 3px;
     margin: 6px 0;
     background-color: #c2c3c5; }
-  header .container .all-cups-img {
+  header .container .main-logo {
     margin-top: 6em; }
+    header .container .main-logo img {
+      display: block; }
 
 .main-img img {
   width: -webkit-fill-available; }
@@ -64,11 +66,21 @@ header .container {
     margin: 0 auto; }
     .main-container .main .content .para, .main-container .main .content .title {
       width: 80%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 2em; }
   .main-container .main .image {
     margin-left: 0; } }
 
 @media (max-width: 768px) {
+  header .container .topbar .top-logo {
+    transform: scale(0.7);
+    transform-origin: left; }
+  header .container .topbar .top-content {
+    transform: scale(0.7);
+    transform-origin: right; }
+  header .container .main-logo img {
+    transform: scale(0.6);
+    transform-origin: left; }
   .main-container .main .content {
     padding: 0;
     padding-top: 3em; }
