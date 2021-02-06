@@ -111,7 +111,6 @@ header {
             .image {
                 margin-top: 0;
                 margin-right: 0;
-                margin-left: 52%;
             }
         }
         // .container {
@@ -139,6 +138,9 @@ header {
             }
             .image {
                 margin-left: 0;
+                img {
+                    transform: scale(0.6);
+                }
             }
         }
     }
