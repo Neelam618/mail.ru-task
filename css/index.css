@@ -23,37 +23,55 @@ header .container {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px)); }
-  .main-container .main .desc {
+  .main-container .main .content {
     color: white;
     padding: 100px 0 100px 120px;
     position: relative; }
-    .main-container .main .desc h1 {
+    .main-container .main .content h1 {
       font-size: 3.5rem; }
-      .main-container .main .desc h1 .mail-ru {
+      .main-container .main .content h1 .mail-ru {
         color: #2381de; }
-    .main-container .main .desc .subtitle {
+    .main-container .main .content .subtitle {
       font-size: 1.5rem;
       color: #c2c3c5; }
-    .main-container .main .desc .para {
-      width: 400px;
+    .main-container .main .content .para {
+      width: 470px;
       text-align: justify;
       color: #e6e4e4;
       margin-top: 5em; }
   .main-container .main .image {
     margin-top: 30em;
-    margin-right: 8em; }
+    margin-right: 10em; }
   .main-container .container .footer {
     color: white;
     padding: 2em 0;
     font-size: 22px; }
 
 @media (max-width: 1200px) {
-  .main-container .main .desc {
+  .main-container .main .content {
     padding-bottom: 0;
     padding-left: 80px; }
-    .main-container .main .desc .para {
+    .main-container .main .content .para, .main-container .main .content .title {
       width: 555px; }
   .main-container .main .image {
     margin-top: 0;
     margin-right: 0;
     margin-left: 52%; } }
+
+@media (max-width: 992px) {
+  .main-container .main .content {
+    padding: 40px;
+    padding-bottom: 0;
+    margin: 0 auto; }
+    .main-container .main .content .para, .main-container .main .content .title {
+      width: 80%;
+      margin: 0 auto; }
+  .main-container .main .image {
+    margin-left: 0; } }
+
+@media (max-width: 768px) {
+  .main-container .main .content {
+    padding: 0;
+    padding-top: 3em; }
+    .main-container .main .content .title h1 {
+      font-size: 2.5rem; } }

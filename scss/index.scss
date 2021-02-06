@@ -23,7 +23,6 @@ header {
             margin-top: 6em;
         }
     }
-        
 }
 
 .main-img {
@@ -42,7 +41,7 @@ header {
 
     .main {
 
-        .desc {
+        .content {
             color: white;
             padding: 100px 0 100px 120px;
             position: relative;
@@ -73,7 +72,7 @@ header {
             }
 
             .para {
-                width: 400px;
+                width: 470px;
                 text-align: justify;
                 color: #e6e4e4;
                 margin-top: 5em;
@@ -81,9 +80,8 @@ header {
         }
         .image {
             margin-top: 30em;
-            margin-right: 8em;
-            // width: 10px;
-            // margin-bottom: 2em;
+            margin-right: 10em;
+            
         }
     }
     .container {
@@ -98,15 +96,15 @@ header {
 }
 
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
     .main-container {
 
         .main {
             
-            .desc {
+            .content {
                 padding-bottom: 0;
                 padding-left: 80px;
-                .para {
+                .para, .title {
                     width: 555px;
                 }
             }
@@ -125,4 +123,41 @@ header {
         
     }
 }
+@media (max-width:992px) {
+
+    .main-container {
+        .main {
+            .content {
+                padding: 40px;
+                padding-bottom: 0;
+                margin: 0 auto;
+
+                .para, .title {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+            .image {
+                margin-left: 0;
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .main-container {
+        .main {
+            .content {
+                padding: 0;
+                padding-top: 3em;
+
+                .title {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
