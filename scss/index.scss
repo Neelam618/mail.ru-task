@@ -46,7 +46,7 @@ header {
 
         .content {
             color: white;
-            padding: 100px 0 100px 120px;
+            padding-top: 8em;
             position: relative;
 
             h1 {
@@ -81,9 +81,8 @@ header {
                 margin-top: 5em;
             }
         }
-        .image {
+        .side-image {
             margin-top: 30em;
-            margin-right: 10em;
             
         }
     }
@@ -91,7 +90,6 @@ header {
 
         .footer {
             color: white;
-            padding: 2em 0;
             font-size: 22px;
         }
     }
@@ -107,11 +105,8 @@ header {
             .content {
                 padding-bottom: 0;
                 padding-left: 80px;
-                .para, .title {
-                    width: 555px;
-                }
             }
-            .image {
+            .side-image {
                 margin-top: 0;
                 margin-right: 0;
             }
@@ -133,7 +128,7 @@ header {
                     margin-top: 2em;
                 }
             }
-            .image {
+            .side-image {
                 margin-left: 0;
                 
             }
@@ -173,9 +168,12 @@ header {
                     h1 {
                         font-size: 2.5rem;
                     }
+                    .subtitle {
+                        font-size: 1.4rem;
+                    }
                 }
             }
-            .image {
+            .side-image {
                 img {
                     transform: scale(0.6);
                 }

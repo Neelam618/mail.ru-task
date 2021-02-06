@@ -27,7 +27,7 @@ header .container {
   background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px)); }
   .main-container .main .content {
     color: white;
-    padding: 100px 0 100px 120px;
+    padding-top: 8em;
     position: relative; }
     .main-container .main .content h1 {
       font-size: 3.5rem; }
@@ -41,21 +41,17 @@ header .container {
       text-align: justify;
       color: #e6e4e4;
       margin-top: 5em; }
-  .main-container .main .image {
-    margin-top: 30em;
-    margin-right: 10em; }
+  .main-container .main .side-image {
+    margin-top: 30em; }
   .main-container .container .footer {
     color: white;
-    padding: 2em 0;
     font-size: 22px; }
 
 @media (max-width: 1200px) {
   .main-container .main .content {
     padding-bottom: 0;
     padding-left: 80px; }
-    .main-container .main .content .para, .main-container .main .content .title {
-      width: 555px; }
-  .main-container .main .image {
+  .main-container .main .side-image {
     margin-top: 0;
     margin-right: 0; } }
 
@@ -68,7 +64,7 @@ header .container {
       width: 80%;
       margin: 0 auto;
       margin-top: 2em; }
-  .main-container .main .image {
+  .main-container .main .side-image {
     margin-left: 0; } }
 
 @media (max-width: 768px) {
@@ -86,5 +82,7 @@ header .container {
     padding-top: 3em; }
     .main-container .main .content .title h1 {
       font-size: 2.5rem; }
-  .main-container .main .image img {
+    .main-container .main .content .title .subtitle {
+      font-size: 1.4rem; }
+  .main-container .main .side-image img {
     transform: scale(0.6); } }
