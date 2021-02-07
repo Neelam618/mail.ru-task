@@ -4,13 +4,10 @@ body {
     line-height: 1.8;
     letter-spacing: 1px;
 }
-
 header {
-
     .container {
         font-size: 2rem;
         color: #c2c3c5;
-
         .line {
             display: inline-block;
             width: 30px;
@@ -18,45 +15,30 @@ header {
             margin: 6px 0;
             background-color: #c2c3c5;
         }
-
         .main-logo {
-            margin-top: 10%;
-            margin-bottom: 2em;
-            img {
-                display: block;
-            }
+            margin: 4em 0;
         }
     }
 }
-
 .main-img {
     img{
         width: 1900px;
         max-width: 100%;
     }
 }
-
-
 .main-container {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px));
-
     .main {
-
         .content {
             color: white;
-            padding-top: 8em;
-            padding-left: 80px;
-            position: relative;
-
+            padding: 8em 0 0 80px;
             .title {
                 position: relative;
                 z-index: 11;
-
                 h1 {
                     font-size: 3.5rem;
-    
                     .mail-ru {
                         color: #2381de;
                     }
@@ -67,14 +49,11 @@ header {
                     left: -84px;
                     z-index: -1;
                 }
-    
                 .subtitle {
                     font-size: 1.5rem;
                     color: #c2c3c5;
                 }
             }
-            
-
             .para {
                 width: 404px;
                 text-align: justify;
@@ -84,60 +63,45 @@ header {
         }
         .side-image {
             margin-top: 30em;
-            
         }
     }
     .container {
-
         .footer {
             color: white;
             font-size: 22px;
         }
     }
-
 }
-
-
 @media (max-width:1200px) {
     .main-container {
-
         .main {
-            
             .content {
-                padding-bottom: 0;
-                padding-left: 100px;
+                padding: 8em 0 0 100px;
             }
             .side-image {
                 margin-top: 0;
-                margin-right: 0;
             }
         }
     }
 }
 @media (max-width:992px) {
-
     .main-container {
         .main {
             .content {
-                padding: 40px;
-                padding-bottom: 0;
+                padding: 40px 40px 0 40px;
                 margin: 0 auto;
-
                 .para, .title {
                     width: 80%;
-                    margin: 0 auto;
-                    margin-top: 2em;
+                    margin: 2em auto 0 auto;
                 }
             }
             .side-image {
                 margin-left: 0;
-                
             }
         }
     }
 }
 @media (max-width:768px) {
-
     header {
         .container {
             .topbar {
@@ -150,7 +114,6 @@ header {
                     transform-origin: right;
                 }
             }
-            
             .main-logo {
                 img {
                     transform: scale(0.6);
@@ -162,9 +125,7 @@ header {
     .main-container {
         .main {
             .content {
-                padding: 0;
-                padding-top: 3em;
-
+                padding: 3em 0 0;
                 .title {
                     h1 {
                         font-size: 2.5rem;

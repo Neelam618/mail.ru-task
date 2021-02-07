@@ -14,10 +14,7 @@ header .container {
     margin: 6px 0;
     background-color: #c2c3c5; }
   header .container .main-logo {
-    margin-top: 10%;
-    margin-bottom: 2em; }
-    header .container .main-logo img {
-      display: block; }
+    margin: 4em 0; }
 
 .main-img img {
   width: 1900px;
@@ -29,9 +26,7 @@ header .container {
   background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px)); }
   .main-container .main .content {
     color: white;
-    padding-top: 8em;
-    padding-left: 80px;
-    position: relative; }
+    padding: 8em 0 0 80px; }
     .main-container .main .content .title {
       position: relative;
       z-index: 11; }
@@ -60,21 +55,17 @@ header .container {
 
 @media (max-width: 1200px) {
   .main-container .main .content {
-    padding-bottom: 0;
-    padding-left: 100px; }
+    padding: 8em 0 0 100px; }
   .main-container .main .side-image {
-    margin-top: 0;
-    margin-right: 0; } }
+    margin-top: 0; } }
 
 @media (max-width: 992px) {
   .main-container .main .content {
-    padding: 40px;
-    padding-bottom: 0;
+    padding: 40px 40px 0 40px;
     margin: 0 auto; }
     .main-container .main .content .para, .main-container .main .content .title {
       width: 80%;
-      margin: 0 auto;
-      margin-top: 2em; }
+      margin: 2em auto 0 auto; }
   .main-container .main .side-image {
     margin-left: 0; } }
 
@@ -89,8 +80,7 @@ header .container {
     transform: scale(0.6);
     transform-origin: left; }
   .main-container .main .content {
-    padding: 0;
-    padding-top: 3em; }
+    padding: 3em 0 0; }
     .main-container .main .content .title h1 {
       font-size: 2.5rem; }
     .main-container .main .content .title img {
