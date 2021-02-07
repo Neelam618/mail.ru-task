@@ -14,12 +14,14 @@ header .container {
     margin: 6px 0;
     background-color: #c2c3c5; }
   header .container .main-logo {
-    margin-top: 6em; }
+    margin-top: 10%;
+    margin-bottom: 2em; }
     header .container .main-logo img {
       display: block; }
 
 .main-img img {
-  width: -webkit-fill-available; }
+  width: 1900px;
+  max-width: 100%; }
 
 .main-container {
   margin: 0;
@@ -28,14 +30,23 @@ header .container {
   .main-container .main .content {
     color: white;
     padding-top: 8em;
+    padding-left: 80px;
     position: relative; }
-    .main-container .main .content h1 {
-      font-size: 3.5rem; }
-      .main-container .main .content h1 .mail-ru {
-        color: #2381de; }
-    .main-container .main .content .subtitle {
-      font-size: 1.5rem;
-      color: #c2c3c5; }
+    .main-container .main .content .title {
+      position: relative;
+      z-index: 11; }
+      .main-container .main .content .title h1 {
+        font-size: 3.5rem; }
+        .main-container .main .content .title h1 .mail-ru {
+          color: #2381de; }
+      .main-container .main .content .title img {
+        position: absolute;
+        top: -35px;
+        left: -84px;
+        z-index: -1; }
+      .main-container .main .content .title .subtitle {
+        font-size: 1.5rem;
+        color: #c2c3c5; }
     .main-container .main .content .para {
       width: 404px;
       text-align: justify;
@@ -50,7 +61,7 @@ header .container {
 @media (max-width: 1200px) {
   .main-container .main .content {
     padding-bottom: 0;
-    padding-left: 80px; }
+    padding-left: 100px; }
   .main-container .main .side-image {
     margin-top: 0;
     margin-right: 0; } }
@@ -82,6 +93,10 @@ header .container {
     padding-top: 3em; }
     .main-container .main .content .title h1 {
       font-size: 2.5rem; }
+    .main-container .main .content .title img {
+      transform: scale(0.5);
+      top: -61px;
+      left: -89px; }
     .main-container .main .content .title .subtitle {
       font-size: 1.4rem; }
   .main-container .main .side-image img {

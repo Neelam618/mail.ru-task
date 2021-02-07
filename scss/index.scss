@@ -20,7 +20,8 @@ header {
         }
 
         .main-logo {
-            margin-top: 6em;
+            margin-top: 10%;
+            margin-bottom: 2em;
             img {
                 display: block;
             }
@@ -30,7 +31,8 @@ header {
 
 .main-img {
     img{
-        width: -webkit-fill-available;
+        width: 1900px;
+        max-width: 100%;
     }
 }
 
@@ -38,8 +40,6 @@ header {
 .main-container {
     margin: 0;
     padding: 0;
-    // margin: 7em;
-    // width: 100%;
     background-image: linear-gradient(to top left, #131823 calc(50% - 1px), #3e3f42, #131823 calc(50% + 1px));
 
     .main {
@@ -47,32 +47,33 @@ header {
         .content {
             color: white;
             padding-top: 8em;
+            padding-left: 80px;
             position: relative;
 
-            h1 {
-                font-size: 3.5rem;
-                // background: url(img/cup.svg);
-                // background-position: top;
-                // background-size: inherit;
-                // background-origin: initial;
-                // position:relative;
-                // display: inline-block;
+            .title {
+                position: relative;
+                z-index: 11;
 
-                .mail-ru {
-                    color: #2381de;
+                h1 {
+                    font-size: 3.5rem;
+    
+                    .mail-ru {
+                        color: #2381de;
+                    }
+                }
+                img {
+                    position: absolute;
+                    top: -35px;
+                    left: -84px;
+                    z-index: -1;
+                }
+    
+                .subtitle {
+                    font-size: 1.5rem;
+                    color: #c2c3c5;
                 }
             }
-            // .bg-cup {
-            //     position: absolute;
-            //     top: 50px;
-            //     left: 20px;
-                
-            // }
-
-            .subtitle {
-                font-size: 1.5rem;
-                color: #c2c3c5;
-            }
+            
 
             .para {
                 width: 404px;
@@ -104,7 +105,7 @@ header {
             
             .content {
                 padding-bottom: 0;
-                padding-left: 80px;
+                padding-left: 100px;
             }
             .side-image {
                 margin-top: 0;
@@ -167,6 +168,11 @@ header {
                 .title {
                     h1 {
                         font-size: 2.5rem;
+                    }
+                    img {
+                        transform: scale(0.5);
+                        top: -61px;
+                        left: -89px;
                     }
                     .subtitle {
                         font-size: 1.4rem;
