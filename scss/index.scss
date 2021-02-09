@@ -98,13 +98,6 @@ body {
     }
 }
 @media (max-width:992px) {
-    .header {
-        .container {
-            .main-logo {
-                margin-bottom: 4em;
-            }
-        }
-    }
     .main-container {
         .main {
             .content {
@@ -135,7 +128,6 @@ body {
                 }
             }
             .main-logo {
-                margin-bottom: 6em;
                 img {
                     transform: scale(0.6);
                     transform-origin: left;
@@ -169,15 +161,5 @@ body {
         }
     }
 }
-@media (max-width:600px) {
-    .header {
-        .container {
-            .main-logo {
-                margin-bottom: 7em;
-            }
-        }
-    }
-}
-
 
 
