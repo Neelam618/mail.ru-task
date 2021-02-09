@@ -7,6 +7,9 @@ body {
   line-height: 1.8;
   letter-spacing: 1px; }
 
+.header {
+  height: 100vh; }
+
 header .container {
   font-size: 2rem;
   color: #c2c3c5; }
