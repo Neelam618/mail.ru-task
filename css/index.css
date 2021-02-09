@@ -10,16 +10,16 @@ body {
 .header {
   height: 100vh; }
 
-header .container {
+.header .container {
   font-size: 2rem;
   color: #c2c3c5; }
-  header .container .line {
+  .header .container .line {
     display: inline-block;
     width: 30px;
     height: 3px;
     margin: 6px 0;
     background-color: #c2c3c5; }
-  header .container .main-logo {
+  .header .container .main-logo {
     margin-top: 4em; }
 
 .main-img img {
@@ -60,7 +60,7 @@ header .container {
     font-size: 22px; }
 
 @media (max-width: 1200px) {
-  header .container .main-logo {
+  .header .container .main-logo {
     margin-bottom: 2em; }
   .main-container .main .content {
     padding: 8em 0 0 100px; }
@@ -68,7 +68,7 @@ header .container {
     margin-top: 0; } }
 
 @media (max-width: 992px) {
-  header .container .main-logo {
+  .header .container .main-logo {
     margin-bottom: 4em; }
   .main-container .main .content {
     padding: 40px 40px 0 40px;
@@ -80,15 +80,15 @@ header .container {
     margin-left: 0; } }
 
 @media (max-width: 768px) {
-  header .container .topbar .top-logo {
+  .header .container .topbar .top-logo {
     transform: scale(0.7);
     transform-origin: left; }
-  header .container .topbar .top-content {
+  .header .container .topbar .top-content {
     transform: scale(0.7);
     transform-origin: right; }
-  header .container .main-logo {
+  .header .container .main-logo {
     margin-bottom: 6em; }
-    header .container .main-logo img {
+    .header .container .main-logo img {
       transform: scale(0.6);
       transform-origin: left; }
   .main-container .main .content {
@@ -105,5 +105,5 @@ header .container {
     transform: scale(0.6); } }
 
 @media (max-width: 600px) {
-  header .container .main-logo {
+  .header .container .main-logo {
     margin-bottom: 7em; } }
