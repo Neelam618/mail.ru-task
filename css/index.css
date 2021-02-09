@@ -1,9 +1,11 @@
+body, html {
+  overflow-x: hidden; }
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #131823;
   line-height: 1.8;
-  letter-spacing: 1px;
-  overflow-x: hidden; }
+  letter-spacing: 1px; }
 
 header .container {
   font-size: 2rem;
@@ -18,9 +20,8 @@ header .container {
     margin-top: 4em; }
 
 .main-img img {
-  max-height: 100%;
-  width: 100%;
-  overflow: hidden; }
+  width: 1900px;
+  max-width: 100%; }
 
 .main-container {
   margin: 0;
@@ -102,4 +103,4 @@ header .container {
 
 @media (max-width: 600px) {
   header .container .main-logo {
-    margin-bottom: 8em; } }
+    margin-bottom: 7em; } }

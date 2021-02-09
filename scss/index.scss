@@ -1,9 +1,11 @@
+body, html {
+    overflow-x: hidden;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #131823;
     line-height: 1.8;
     letter-spacing: 1px;
-    overflow-x: hidden;
 }
 header {
     .container {
@@ -23,9 +25,8 @@ header {
 }
 .main-img {
     img {
-        max-height: 100%;
-        width: 100%;
-        overflow: hidden;
+        width: 1900px;
+        max-width: 100%;
     }
 }
 .main-container {
@@ -169,7 +170,7 @@ header {
     header {
         .container {
             .main-logo {
-                margin-bottom: 8em;
+                margin-bottom: 7em;
             }
         }
     }
