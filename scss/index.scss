@@ -22,9 +22,10 @@ header {
     }
 }
 .main-img {
-    img{
-        width: 1900px;
-        max-width: 100%;
+    img {
+        max-height: 100%;
+        width: 100%;
+        overflow: hidden;
     }
 }
 .main-container {
