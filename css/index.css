@@ -2,7 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #131823;
   line-height: 1.8;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  overflow-x: hidden; }
 
 header .container {
   font-size: 2rem;
@@ -14,7 +15,7 @@ header .container {
     margin: 6px 0;
     background-color: #c2c3c5; }
   header .container .main-logo {
-    margin: 4em 0; }
+    margin-top: 4em; }
 
 .main-img img {
   width: 1900px;
@@ -54,12 +55,16 @@ header .container {
     font-size: 22px; }
 
 @media (max-width: 1200px) {
+  header .container .main-logo {
+    margin-bottom: 2em; }
   .main-container .main .content {
     padding: 8em 0 0 100px; }
   .main-container .main .side-image {
     margin-top: 0; } }
 
 @media (max-width: 992px) {
+  header .container .main-logo {
+    margin-bottom: 4em; }
   .main-container .main .content {
     padding: 40px 40px 0 40px;
     margin: 0 auto; }
@@ -76,9 +81,11 @@ header .container {
   header .container .topbar .top-content {
     transform: scale(0.7);
     transform-origin: right; }
-  header .container .main-logo img {
-    transform: scale(0.6);
-    transform-origin: left; }
+  header .container .main-logo {
+    margin-bottom: 6em; }
+    header .container .main-logo img {
+      transform: scale(0.6);
+      transform-origin: left; }
   .main-container .main .content {
     padding: 3em 0 0; }
     .main-container .main .content .title h1 {
@@ -91,3 +98,7 @@ header .container {
       font-size: 1.4rem; }
   .main-container .main .side-image img {
     transform: scale(0.6); } }
+
+@media (max-width: 600px) {
+  header .container .main-logo {
+    margin-bottom: 8em; } }

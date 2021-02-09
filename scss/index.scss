@@ -3,6 +3,7 @@ body {
     background-color: #131823;
     line-height: 1.8;
     letter-spacing: 1px;
+    overflow-x: hidden;
 }
 header {
     .container {
@@ -16,7 +17,7 @@ header {
             background-color: #c2c3c5;
         }
         .main-logo {
-            margin: 4em 0;
+            margin-top: 4em;
         }
     }
 }
@@ -73,6 +74,13 @@ header {
     }
 }
 @media (max-width:1200px) {
+    header {
+        .container {
+            .main-logo {
+                margin-bottom: 2em;
+            }
+        }
+    }
     .main-container {
         .main {
             .content {
@@ -85,6 +93,13 @@ header {
     }
 }
 @media (max-width:992px) {
+    header {
+        .container {
+            .main-logo {
+                margin-bottom: 4em;
+            }
+        }
+    }
     .main-container {
         .main {
             .content {
@@ -115,6 +130,7 @@ header {
                 }
             }
             .main-logo {
+                margin-bottom: 6em;
                 img {
                     transform: scale(0.6);
                     transform-origin: left;
@@ -148,5 +164,15 @@ header {
         }
     }
 }
+@media (max-width:600px) {
+    header {
+        .container {
+            .main-logo {
+                margin-bottom: 8em;
+            }
+        }
+    }
+}
+
 
 
