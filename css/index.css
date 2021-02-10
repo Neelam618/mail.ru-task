@@ -8,7 +8,7 @@ body {
   letter-spacing: 1px; }
 
 .header {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .header .container {
   font-size: 2rem;
